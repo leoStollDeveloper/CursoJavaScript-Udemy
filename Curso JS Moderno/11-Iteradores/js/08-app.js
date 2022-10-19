@@ -16,3 +16,7 @@ for(let [llave, valor] of Object.entries(automovil) ) {
 }
 
 console.log(object);
+console.log(object);
+console.log(object);
+console.log(object);
+console.log(object);
