@@ -1,17 +1,22 @@
-let numero;
-
-console.log(numero);
-console.log(typeof numero);
-
-// console.log(typeof numero);
+// Envia un mensaje de error a la consola
+//console.error('Algo salio mal');
 
 
-//Null
-
-let numero2 = null;
-console.log(numero2);
-
-//console.log(typeof numero2);
+//Envia un mensaje de advertencia a la consola
+//console.warn('Algo salio medianamente mal');
 
 
-console.log(numero === numero2);
+// Comando para limpiar la consola
+// console.clear();
+
+console.time('Hola');
+
+console.warn('Eso paso por algo');
+console.warn('Eso paso por algo');
+console.warn('Eso paso por algo');
+console.warn('Eso paso por algo');
+console.warn('Eso paso por algo');
+console.warn('Eso paso por algo');
+
+// muestra en cuanto tiempo se ejecuta el codigo.
+console.timeEnd('Hola');

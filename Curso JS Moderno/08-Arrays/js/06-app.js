@@ -1,30 +1,30 @@
-//Forma declarativa, (relacionada con Programacion Funciona}
 const carrito = [];
 
-//Definir un producto (objeto)
+// Definir un producto
 
 const producto = {
-    nombre: "joystic ps5",
-    precio: 150
-
+    nombre: "Monitor Samsung 144ghz",
+    precio: 200
 }
 
 const producto2 = {
-    nombre: "anteojos",
-    precio: 100
+    nombre: "teclado Mecanico Red Dragon",
+    precio: 60
 }
 
 const producto3 = {
-    nombre: "mouse",
-    precio: 50
-
+    nombre: "Mouse Razer",
+    precio: 100
 }
 
 let resultado;
 
-resultado = [...carrito, producto2, producto];
+resultado = [...carrito, producto];
 
+
+resultado = [...resultado, producto2]
 resultado = [producto3, ...resultado];
+
 
 
 

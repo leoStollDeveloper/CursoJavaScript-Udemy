@@ -1,19 +1,18 @@
-//Pregunta para obtener un trabajo (HOISTING) 
 
-//Declaracion de Funcion ( Function Declaration )
 
+
+// Declaracion de funcion (function Declaration)
 sumar();
-function sumar() {
-    console.log(7 + 7);
+function sumar () {         //dentro de los parentesis se indica los parametros
+    console.log (2 +2);
 }
 
 
 
 
-//Exprecion de Funcion (Function Expression)
-
-sumarmas();
-const sumarmas = function(){
-    console.log(7 + 7 + 7);
+// Exprecion de Funcion (Function Expression)
+sumar2();
+const sumar2 = function() {
+    console.log (3 + 3);
 }
 

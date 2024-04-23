@@ -1,29 +1,24 @@
 //Objeto Literal
 
-const leo = {
-    hobby: "viciar",
-    porongudo: true,
-    largo: 20,
-    tiempo: "horas x dia",
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true
+    }
 
-   
+// Objeto Constructor
 
+function Producto(nombre, precio) {
+    this.nombre = nombre;
+    this.precio = precio;
+    this.disponible = true;
 }
 
-//Objeto Contructor
+const producto2 = new Producto('Lata de CocaCola', 5);
+console.log(producto2);
 
+const producto3 = new Producto('rtx4070', 450);
+console.log(producto3);
 
-function Producto(hobby, largo) {
-    this.hobby = hobby;
-    this.largo = largo;
-    this.porongudo = true;
-
-
-
-}
-
-const leo1 = new Producto('chupino', 55);
-console.log(leo1);
-
-const leo2 = new Producto('amatista');
-console.log(leo2);
+const graficas = new Producto('3070ti', 350);
+console.log(graficas);

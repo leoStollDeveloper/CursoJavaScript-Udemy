@@ -1,13 +1,21 @@
-const leo = {
-    hobby: "viciar",
-    porongudo: true,
-    largo: 20,
-
-};
-
-console.log (leo);
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true
+}
 
 
-console.log(leo.largo);
-console.log(leo.porongudo);
-console.log(leo.hobby);
+
+// Estas son las maneras de seleccionar una propiedad dentro de un objeto
+
+
+
+console.log(producto);
+
+console.log(producto.corazon);
+console.log(producto.precio);
+console.log(producto.real);
+
+
+//forma no muy utilizada
+console.log(producto['corazon']);

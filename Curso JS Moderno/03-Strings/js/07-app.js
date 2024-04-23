@@ -1,18 +1,12 @@
-const producto = 'Pelota 10 Pugadas';
-
+const producto = 'Monitor 20 pulgadas';
 console.log(producto.toUpperCase());
 
-console.log(producto.toLowerCase());
 
+console.log(producto. toLowerCase());
 
-const email = "CORREODEPEPITO@TUSANJA.COM";
-
+const email = "CORREODEPEPITO@TUCORREO.COM";
 console.log(email.toLowerCase());
 
 const precio = 300;
-
-
 console.log(precio);
-
 console.log(precio.toString());
-

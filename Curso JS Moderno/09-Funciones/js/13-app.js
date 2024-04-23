@@ -1,38 +1,29 @@
-const reproductor = {
+const reproducto = {
+    reproducir: id =>console.log(`Reproduciendo cancion con el id ${id}`),
+    pausar: () =>console.log('pausando...'),
+    borrar: (id) =>console.log(`Borrando cancion... ${id}`),
+    crearPlaylist:(nombre) =>console.log(`Creando playlist de ${nombre}`),
+    reproducirPlaylist: (nombre)=>console.log(`Reproduciendo la playlist ${nombre}`),
 
-    cancio: '',
-
-    reproducir: id => console.log(`Reproduciendo canciones con el id ${id}`),
-    
-    pausar: () => console.log('pausar...'),
-    
-    borrar:id => console.log(`Borrando canciones... ${id}`),
-    
-    playList: nombre => console.log(`Crear la playlist de ${nombre}`),
-    
-    reproducirPlaylist: nombre => console.log(`Reproduciendo la playlist ${nombre}`),
-    
-
-    //set sirve para agregar valores
-    set nuevaCancion(cancion) {
+    set nuevacancion(cancion){
         this.cancion = cancion;
-        console.log(`Agregando ${cancion}`);
-    },
+        console.log(`Añadiendo ${cancion}`);
+},
 
-    //get sirve para obtener de vuelta esos valores
     get obtenerCancion() {
-        console.log(`${this.cancion}`)
+        console.log (`${this.cancion}`)
     }
 
 }
 
-reproductor.nuevaCancion = 'Paint It, Black';
-reproductor.obtenerCancion;
+reproducto.nuevacancion = 'Maluma baby';
+reproducto.obtenerCancion;
 
-reproductor.reproducir(20)
-reproductor.reproducir(7)
-reproductor.pausar();
-reproductor.borrar(7)
-reproductor.playList('Rock');
-reproductor.playList('Pop');
-reproductor.reproducirPlaylist('Pop');
+reproducto.reproducir(30)
+reproducto.reproducir(20)
+reproducto.pausar();
+reproducto.borrar(30)
+reproducto.crearPlaylist('Rock');
+reproducto.crearPlaylist('Romantico');
+reproducto.crearPlaylist('Lofi');
+reproducto.reproducirPlaylist('Heavy Metal');

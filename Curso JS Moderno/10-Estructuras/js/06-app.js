@@ -1,23 +1,14 @@
-//operador && // && sirve para que se cumplan varias funciones
+//Operador &&
 
-const usuario = false; 
-const puedePagar = false;
+const usuario =true;
+const puedePagar = true;
 
-if(usuario && puedePagar) {
+if(usuario && puedePagar){
     console.log('Si puedes comprar')
-
-}   else if(!puedePagar && !usuario) {
+} else if (!puedePagar && !usuario){
     console.log('No no puede comprar')
-
-} else if(!usuario) {
-    console.log('Iniciar sesion');
-
-} else if(!puedePagar) {
-    console.log('Fondos insuficientes')
-    
-} 
-
-// if  exprecion  'si es esto'
-// else exprecion 'si no es esto'
-// else if se utiliza para 
-//! exprecion "si no es "
+} else if (!usuario) {
+    console.log('Inicia sesion o crea una cuenta');
+} else if (!puedePagar){
+    console.log('Fondo Insuficientes')
+}

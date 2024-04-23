@@ -1,24 +1,15 @@
-const leo = {
-    hobby: "viciar",
-    porongudo: true,
-    largo: 20,
-    tiempo: "horas x dia"
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true
+    }
+    // con Object.Keys podemos obtener las caracteristicas dentro del objeto.
+    console.log( Object.keys(producto));
 
-}
-//Object.keys muestra si hay o no hay informacion dentro de la variable
+    // con Object.values podemos obtener la descripcion de cada caracteristica del objeto.
+    console.log( Object.values(producto));
 
+    // con Object.entries podemos el contenido total del objeto.
 
-console.log( Object.keys( leo ) );
-
-
-//Object.values muestra los valores de las llaves
-
-console.log( Object.values(leo));
-
-//Object.entries muestra todos los contenidos del objeto
-
-console.log(Object.entries(leo));
-
-
-
-
+    console.log( Object.entries(producto));
+    

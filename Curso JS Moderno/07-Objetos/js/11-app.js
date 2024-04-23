@@ -1,15 +1,24 @@
-const leo = {
-    hobby: "viciar",
-    porongudo: true,
-    largo: 20,
-    tiempo: "horas x dia",
-
-
-    mostrarInfo: function() {
-        console.log(`El chabon es re: ${this.hobby} y juega: ${this.largo} ${this.tiempo} `)
+const producto1 = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true,
+    monstrarInfo: function() {
+        console.log(`EL Producto: ${this.corazon} tiene un precio de ${this.precio}`)
     }
-
 }
 
 
-leo.mostrarInfo();
+
+
+
+const producto2 = {
+    corazon: "mojon",
+    precio: 1,
+    real: true,
+    monstrarInfo: function() {
+        console.log(`EL Producto: ${this.corazon} tiene un precio de ${this.precio}`)
+    }
+}
+
+producto1.monstrarInfo();
+producto2.monstrarInfo();

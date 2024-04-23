@@ -1,9 +1,6 @@
-//Parametros por default
-
-function saludos(nombre = 'tu nombre?', apellido ='') { // sigo = agrega el defaul del parametro
+function saludar(nombre = 'Desconocido', apellido =''){
     console.log(`Hola ${nombre} ${apellido}`);
-
-
 }
 
-saludos('Leo', 'Stoll');
+
+saludar('Leo');

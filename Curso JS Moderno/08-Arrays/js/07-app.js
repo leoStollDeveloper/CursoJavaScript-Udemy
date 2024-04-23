@@ -1,44 +1,49 @@
 const carrito = [];
 
-//Definir un producto (objeto)
+// Definir un producto
 
 const producto = {
-    nombre: "joystic ps5",
-    precio: 150
-
+    nombre: "Monitor Samsung 144ghz",
+    precio: 200
 }
 
-const producto2 = {
-    nombre: "anteojos",
+const preducto2 = {
+    nombre: "teclado Mecanico Red Dragon",
+    precio: 60
+}
+
+const preducto4 = {
+    nombre: "Cascos Corsair",
+    precio: 80
+}
+
+// . push agrega al final de un arreglo.
+
+carrito.push(producto);
+carrito.push(preducto2);
+carrito.push(preducto4);
+
+const producto3 = {
+    nombre: "Mouse Razer",
     precio: 100
 }
 
-const producto3 = {
-    nombre: "mouse",
-    precio: 50
 
-}    
-const producto4 = {
-        nombre: "notebook",
-        precio: 10000
+// .unshift agrega al inicio del arreglo.
 
-}
-
-carrito.push(producto);
-carrito.push(producto2);
-carrito.push(producto3);
-carrito.push(producto4);
-
+carrito.unshift(producto3);
 console.table(carrito);
 
-//Eliminar ultimo elemento de un arrays utilizando .pop 
-//carrito.pop();
-//console.table(carrito);
+// //Elimina ultimo elemento de un arreglo
 
+// carrito.pop();
+// console.table(carrito);
 
-//Eliminar del inicio del arreglo de un arrays se utiliza .shift
-//carrito.shift()
-//console.table(carrito);
+// // Eliminar del inicio del arreglo
+// carrito.shift();
+// console.table(carrito);
 
-carrito.splice(0,1)
+carrito.splice(1, 1);
 console.table(carrito);
+
+

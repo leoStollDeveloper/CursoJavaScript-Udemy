@@ -1,36 +1,20 @@
-//Buenas practicas
 
-const autenticado = true
+const autenticado = true;
 
-if(autenticado) {
+if(autenticado){
     console.log('El usuario esta autenticado')
 }
-
-//Mala practica
-
-const autenticado2 = true
-
-if(autenticado2 === true ) {
-    console.log('Usuario es autentico')
-}
-
-//no es necesario evaluar si es true en este caso.
-
-
-const puntaje = 1500;
+const puntaje = 450;
 
 function revisarPuntaje() {
-    if(puntaje > 1100) {
-        console.log('Exelente!!')
-        return;    
-    } 
-    
-    if (puntaje > 1500) {
-        console.log('Buen puntaje... felicidades')
-        return;
+    if(puntaje > 400){
+        console.log('Excelente!!');
+    return;
     }
-  
+if (puntaje > 300) {
+    console.log('Buen puntaje... felicidades');
+    return;
+    }
 }
+
 revisarPuntaje();
-
-

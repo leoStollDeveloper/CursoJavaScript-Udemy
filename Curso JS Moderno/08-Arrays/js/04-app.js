@@ -1,7 +1,6 @@
-const frutas = ['manzana', 'pera', 'melon', 'banana', 'mandarina', 'kiwi'];
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'];
 
-frutas[0] = 'nueva fruta Naranja';
-frutas[6] = 'mango';
+meses [0] = 'Diciembre';
+meses [10] = 'Ultimo mes';
 
-
-console.table(frutas);
+console.table(meses);

@@ -1,18 +1,16 @@
-// for in
 
 const automovil = {
-    modelo: 'Camaro',
-    year: 1969,
-    motor: '6.0'
+    modelo: 'Chevrolet',
+    año: 1972,
+    motor: '250'
 }
 
-//for(let propiedad in automovil) {
-//    console.log(`${automovil[propiedad]}`)
-//}
+// for(let propiedad in automovil){
+//     console.log(`${automovil[propiedad]}`)
+// }
 
-for(let [llave, valor] of Object.entries(automovil) ) {
+
+for(let [llave, valor] of Object.entries(automovil)) {
     console.log(valor);
     console.log(llave);
 }
-
-console.log(object);

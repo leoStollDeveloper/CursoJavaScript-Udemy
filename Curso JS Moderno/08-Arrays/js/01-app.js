@@ -1,36 +1,14 @@
-//primer ejemplo de arreglo (arrays)
+const numeros = [2,4,6];
 
-const numeros = [1,2,3,4];
+const dias = new Array('Lunes', 'Miercoles', 'Viernes');
 
-const meses = new Array('Enero', 'Febrero', 'Marzo');
 
 
 console.log(numeros);
+console.log(dias);
 
-console.log(meses);
+// un arreglo que contiene datos de todo tipo
 
+const varios = ["hola", 20, false, "no", null, {nombre: 'Leo', trabajo: 'Develov'}, [1,2,3]];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//ejemplo de objeto
-
-//const leo = {
-    //peso: 75,
-    //altura: '1,84mts',
-    //disponible: true,
-    
-
-//}
-
-//console.log(leo);
+console.log(varios); 

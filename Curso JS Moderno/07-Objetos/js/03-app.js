@@ -1,20 +1,27 @@
-const leo = {
-    hobby: "correr",
-    porongudo: true,
-    largo: 20,
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true
+}
 
-};
+//Agregar nuevas propiedades al objeto
+producto.imagen = "imagen.png";
 
-
-//Agregar nuevas propiedadesal objeto
-
-leo.imagen = "imagen.jpg";
 
 //Eliminar propiedades del objeto
+delete producto.precio;
 
-delete leo.largo;
 
-console.log (leo);
+
+
+
+
+
+
+
+
+
+console.log(producto);
 
 
 

@@ -1,25 +1,21 @@
-// Swicht para evaluar multiples Condiciones
+// Switch case
 
-const metodoPago = 'tarjeta';
+const metodoDePago = 'efectivo';
 
-switch(metodoPago) {
+switch(metodoDePago){
     case 'efectivo':
-        console.log(`Pagaste con ${metodoPago}`);
+        Pagar();
+    case 'cheque':
+        console.log(`Pagaste con ${metodoDePago}`);
         break;
-
-    case 'Cheque':
-        console.log(`Pagaste con ${metodoPago}`);
+    case 'tarjeta':
+        console.log( `Pagaste con ${metodoDePago}`);
         break;
-
-        case 'tarjeta':
-            pagar();
-        break;
-
     default:
-        console.log('Aun no has seccionado un metodo de pago o metodo de pago');
-        break;
-    }
+        console.log('Aun no has seleccionado un metodo de pago o metodo de pago no soportado');
+        break;            
+}
 
-    function pagar() {
-        console.log('Pagado...');
-    }
+function Pagar() {
+    console.log('Pagando...');
+}

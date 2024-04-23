@@ -1,23 +1,19 @@
 "use strict";
 
-
-
-const leo = {
-    hobby: "viciar",
-    porongudo: true,
-    largo: 20,
-
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true,
 }
+//manera de sellar un objeto, solo puede modificar los resultados.
+Object.seal( producto );
 
-Object.seal( leo );
+   producto.real = false;
+// producto.imagen = "imagen.png";
+// delete.producto.precio;
 
-leo.porongudo = false;
-//leo.imagen = "img.jpg";
-//delete producto.precio;
-
-
-console.log(leo);
-
-console.log(Object.isSealed (leo));
+console.log(producto);
+//manera de consutar si el objeto esta sellado.
+console.log(Object.isSealed(producto));
 
 

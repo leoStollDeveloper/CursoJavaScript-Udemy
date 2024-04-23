@@ -1,40 +1,23 @@
-const leo = {
-    hobby: "correr",
-    equilibrio: true,
-    largo: 20,
+const producto = {
+    nombre: "monitor MSI",
+    precio: 75,
+    disponible: true
+}
 
-};
-
-//const hooby = leo.hobby;
-//console.log(hooby);
-
-
-//Destructuring...
-
-const {hobby, equilibrio, largo } = leo;
+//const nombre = producto.nombre;
+//console.log(nombre);
 
 
-console.log(hobby);
-//console.log(equilibrio);
-//console.log(largo);
+//Destructuring
+const {nombre,} = producto;
 
-
+console.log(nombre);
 
 
 //Destructuring con Arreglos
 
-//const numero = [5,4,3,2,1];
+const numeros = [10,20,30,40,50];
 
-//const [ primero, , , cuarto ] = numero;
+const [primero, ...tercero] = numeros;
 
-//console.log(cuarto);
-//console.log(primero);
-
-
-//Destructuring muy utilizada a la hora de usar react
-
-const numero = [50,40,30,20,10];
-
-const [ primero, ...segundo ] = numero;
-
-console.log(segundo);
+console.log(tercero);

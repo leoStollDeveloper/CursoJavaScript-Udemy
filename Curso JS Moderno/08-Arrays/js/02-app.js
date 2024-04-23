@@ -1,13 +1,11 @@
-const numeritos = [ 5,10,15,20,25];
+const numeros = [10,20,30,40,50, [1,2,3]];
 
-console.log(numeritos);
+console.log(numeros);
+console.table(numeros);
 
+//Acceder al arreglo
 
-//console.table para ver en columnas
-console.table(numeritos);
-
-//Como acceder al arreglo
-
-console.log(numeritos[3]);
-
-console.log(numeritos[4]);
+console.log(numeros[4]);
+console.log(numeros[0]);
+console.log(numeros[8]);
+console.log(numeros[5][0]);

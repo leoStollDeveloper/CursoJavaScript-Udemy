@@ -1,16 +1,15 @@
-const numero1 = 20;
-const numero2 = "20";
-const numero3 = 30;
+/*
+   =====================================
+   == Le pregunta al usuario su nombre==
+   =====================================
+*/
+const nombre = prompt('Cual es tu nombre?');
 
+// Toma el nombre y lo muestra en la pantalla
+document.querySelector('.contenido').innerHTML = `${nombre} esta aprendiendo JavaScript como un campeon`;
 
-// Revisar si 2 numeros son iguales
+// Asigna el valor hacia la variable producto
+const producto = 'Monitor 24 pulgadas';
 
-console.log(numero1 == numero3);
-console.log(numero1 == numero2);
-
-// Comparador estricto
-
-console.log(numero1 === numero2);
-console.log(numero1 === parseInt(numero2) );
-console.log(typeof numero1);
-console.log(typeof numero2);
+// Imprime en consola el valor de producto
+console.log (producto);

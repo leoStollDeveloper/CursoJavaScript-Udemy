@@ -1,7 +1,5 @@
-//Arrow functions
-
 const aprendiendo = function() {
-    console.log('Aprendiendo JavaScrip');
+    console.log('Aprendiendo JavaScript');
 }
 
 const aprendiendo2 = () => 'Aprendiendo JavaScript';

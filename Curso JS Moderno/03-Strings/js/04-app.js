@@ -1,12 +1,21 @@
-//const servicio = '            masajes ';
+const producto = '            Monitor 20 pulgadas ';
 
-//console.log(servicio);
-//console.log(servicio.length);
+console.log(producto);
+console.log(producto.length);
 
-//console.log( servicio.trimStart() );
-//console.log( servicio.trimEnd() );
 
-//console.log( servicio.trimStart().trimEnd() );
+//metodo para eliminar del inicio los espacios
+console.log( producto.trimStart() );
 
-// trim elimina los espacios en anbas direcciones
-//console.log( servicio.trim());
+
+//metodo para eliminar del inicio los espacios
+console.log( producto.trimEnd() );
+
+
+//metodo para eliminar espacios en el inicio y al final (metodo nuevo)
+console.log( producto.trimStart().trimEnd());
+
+//metodo para eliminar los espacios de ambos lados (metodo antiguo)
+console.log( producto.trim());
+
+

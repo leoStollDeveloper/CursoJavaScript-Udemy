@@ -1,23 +1,20 @@
-const verduleria = [
-    {nombre: 'manzana', precio: 200},
-    {nombre: 'palta', precio: 300},
-    {nombre: 'lechuga', precio: 100},
-    {nombre: 'tomate', precio: 250},
-    {nombre: 'zapallito', precio: 200},
-    {nombre: 'pomelo', precio: 150}, 
+const carrito = [
+    {nombre: 'funkito A', precio: 55},
+    {nombre: 'funkito B', precio: 18},
+    {nombre: 'funkito C', precio: 14},
+    {nombre: 'funkito D', precio: 20},
+    {nombre: 'funkito E', precio: 25},
+    {nombre: 'funkito F', precio: 16},
 ]
 
+const nuevoArreglo = carrito.map( function(producto) {
+    return`${producto.nombre} - Precio: ${producto.precio }` ;
+}  )
 
-// Metodo mas utilizado .forEach es un funcion
+const nuevoArreglo2 = carrito.forEach( function(producto) {
+    return `${producto.nombre} - Precio: ${producto.precio }` ;
+}   )
 
 
-const arreglo = verduleria.map( function(prod){
-    return `${prod.nombre} - precio: ${prod.precio}`;
-
-})
-const arreglo1 = verduleria.forEach( function(prod){
-    return `${prod.nombre} - precio: ${prod.precio}`;
-})
-
-console.log(arreglo);
-console.log(arreglo1);
+console.log(nuevoArreglo);
+console.log(nuevoArreglo2);

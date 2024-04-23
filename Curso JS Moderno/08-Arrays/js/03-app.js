@@ -1,21 +1,16 @@
-const frutas = ['manzana', 'pera', 'melon', 'banana', 'mandarina', 'kiwi'];
-
-console.table(frutas);
-console.table(frutas[0]);
-console.table(frutas[1]);
-console.table(frutas[2]);
-console.table(frutas[3]);
-
-//cuanto mide el arreglo
-
-console.log(frutas.length);
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'];
 
 
-//integrador for(let i = 0;) {
+console.table(meses);
+console.table(meses[0]);
+console.table(meses[1]);
+console.table(meses[2]);
 
-//}
 
-for(let i = 0; i < frutas.length; i++) {
-    console.log( frutas[i] );
+//Cuanto mide el arreglo
 
+console.log(meses.length);
+
+for(let i = 0; i < meses.length; i++) {
+    console.log(meses[i]);
 }

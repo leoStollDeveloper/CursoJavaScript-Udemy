@@ -1,19 +1,21 @@
-const leo = {
-    hobby: "correr",
-    equilibrio: true,
-    largo: 20,
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true
+}
 
-};
+//const nombre = producto.conrazon;
+//console.log(corazon);
 
-//const hooby = leo.hobby;
-//console.log(hooby);
+//Destructuring
 
-
-//Destructuring...
-
-const {hobby, equilibrio, largo } = leo;
+const{corazon, precio, real} = producto;
 
 
-console.log(hobby);
-console.log(equilibrio);
-console.log(largo);
+
+
+
+
+console.log(real);
+console.log(corazon);
+console.log(precio);

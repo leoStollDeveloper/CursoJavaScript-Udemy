@@ -1,97 +1,30 @@
-
-
-const frutas = ['manzana', 'pera', 'melon', 'banana', 'mandarina'];
-
-//agregar en la posicion que deseamos el elemento
-
-frutas[5] = 'kiwi';
-
-
-//Para agregar al final del arreglo
-
-frutas.push('frutilla');
-frutas.push('cereza');
-
-//Forma imperativa de agregar objetos utilizando .push y .unshift
-
-
-//console.table(frutas);
-
-/////////////////////////////////////////////////
-
-//ejemplo de carrito
-
 const carrito = [];
 
-//Definir un producto (objeto)
+// Definir un producto
 
 const producto = {
-    nombre: "joystic ps5",
-    precio: 150
-
+    nombre: "Monitor Samsung 144ghz",
+    precio: 200
 }
 
-const producto2 = {
-    nombre: "anteojos",
+const preducto2 = {
+    nombre: "teclado Mecanico Red Dragon",
+    precio: 60
+}
+
+// . push agrega al final de un arreglo.
+
+carrito.push(producto);
+carrito.push(preducto2);
+
+const producto3 = {
+    nombre: "Mouse Razer",
     precio: 100
 }
 
-const producto3 = {
-    nombre: "mouse",
-    precio: 50
 
-}
+// .unshift agrega al inicio del arreglo.
 
-carrito.push(producto);
-carrito.push(producto2);
-carrito.unshift(producto3);
-
-console.table(carrito);
-
-const frutas = ['manzana', 'pera', 'melon', 'banana', 'mandarina'];
-
-//agregar en la posicion que deseamos el elemento
-
-frutas[5] = 'kiwi';
-
-
-//Para agregar al final del arreglo
-
-frutas.push('frutilla');
-frutas.push('cereza');
-
-
-
-
-//console.table(frutas);
-
-/////////////////////////////////////////////////
-
-//ejemplo de carrito
-
-const carrito = [];
-
-//Definir un producto (objeto)
-
-const producto = {
-    nombre: "joystic ps5",
-    precio: 150
-
-}
-
-const producto2 = {
-    nombre: "anteojos",
-    precio: 100
-}
-
-const producto3 = {
-    nombre: "mouse",
-    precio: 50
-
-}
-
-carrito.push(producto);
-carrito.push(producto2);
 carrito.unshift(producto3);
 
 console.table(carrito);

@@ -1,13 +1,16 @@
-//const servicio = 'masajes ';
-//const precio = '20 USD';
+const producto = 'Monitor 20 pulgadas ';
+const precio = '80 Euros ';
 
-//console.log(servicio.concat(precio));
-//console.log(producto.concat(' Descuento al cliente'));
+//Distintas sintaxis de concatenar variables
 
-//console.log( servicio + 'con descuento de:' + precio);
+//console.log(producto.concat(precio));
+//console.log(producto.concat('En descuento'));
 
-//onsole.log('El servicio de ' + servicio + 'tiene un valor de' + precio);
+//Otros metodos de sintaxis
+console.log( producto + "Con un precio de: " + precio  );
 
-//console.log(servicio.includes("masaje"));
+console.log("El producto " + producto + "tiene un precio de " + precio);
 
-//console.log(`El Servicio ${servicio}tiene un precio de ${precio}`);
+
+//Se recomienda utilizar la sintaxis ECMAScript 6 
+console.log(`El Producto ${producto} tiene un precio de $ ${precio}`);

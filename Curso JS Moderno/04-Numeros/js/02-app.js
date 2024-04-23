@@ -1,35 +1,33 @@
-const numero1 = 14;
-const numero2 = 22;
+const numero1 = 30;
+const numero2 = 20;
 
 let resultado;
 
 //Suma
-
 resultado = numero1 + numero2;
 
+
 //Resta
+resultado = numero1 - numero2;
 
-resultado = numero2 - numero1;
-
-
-
-//Multiplicacion 
-
+//Multiplicacion
 resultado = numero1 * numero2;
 
 
 
-//Divicion 
-
-resultado = numero2 / numero1;
-
+//division
+resultado = numero1 / numero2;
 
 
-//Modulo
 
-///PARA EXTRAER PORCENTAJE/// 
+//modulo
 resultado = numero1 % numero2;
 
 
 
-console.log(resultado);
+
+
+
+
+
+console.log (resultado);

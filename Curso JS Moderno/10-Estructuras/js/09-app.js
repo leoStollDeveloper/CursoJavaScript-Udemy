@@ -1,9 +1,19 @@
-//El Operador ternario 
+// Operador Ternario anidado poco comun de ver pero es posible de hacerlo.
 
-const autentificado = false;
+const autenticado = true;
 const puedePagar = false;
 
-console.log( autentificado ? puedePagar ? 'Si esta autentificado y puede pagar' : 'Si esta autentificado, no puede pagar' : 'No no esta autentificado' );
+console.log( autenticado ? puedePagar ? 'Si esta autenticado y puede pagar' : 'Si autenticado, no puede pagar' : 
+'Nono esta autenticado');
+
+
+
+
+
+
+
+
+
 
 
 

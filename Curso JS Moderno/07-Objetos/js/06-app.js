@@ -1,22 +1,21 @@
-const leo = {
-    hobby: "correr",
-    porongudo: true,
-    largo: 20,
-    informatio: {
-        medidas: {
-        altura: "1.85",
-        peso: "75kg"
-    },
-    nacionalidad:{
-        pais: "Portugues"
-
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true,
+    informacion : {
+        medidas : {
+        peso: '1kg',
+        medida: '1m'
+        },
+        fabricacion: {
+            pais: 'Italia'
+        }
     }
-  }
 }
 
-const {hobby, informatio, informatio: {nacionalidad, nacionalidad: {pais}}} = leo;
+const { nombre, informacion, informacion: {fabricacion, fabricacion: {pais}}} = producto;
 
-console.log(leo);
-console.log(informatio);
-console.log(nacionalidad);
+console.log(nombre);
+console.log(informacion);
+console.log(fabricacion);
 console.log(pais);

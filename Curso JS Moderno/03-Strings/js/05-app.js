@@ -1,9 +1,20 @@
-//const servicio = 'Masajes Descontracturante';
-//console.log(servicio);
-//console.log(servicio.replace('Descontracturante', 'Relajante'));
+const producto = 'Monitor 20 pulgadas ';
 
-//console.log(servicio.slice(0, 7));
+//.replace para reemplazar
+console.log(producto);
+console.log(producto.replace('pulgadas', '"'));
+console.log(producto.replace('Monitor', 'Monitor Curvo'));
 
-//console.log(servicio.substring(4, 7));
+//.slice para cortar
+console.log(producto.slice(8));
+//console.log(producto.slice(8) );
+console.log(producto.slice(2, 1));
 
-//console.log(servicio.charAt(0));
+// Alternativa a slice
+console.log(producto.substring(0,10));
+console.log(producto.substring(2,1));
+
+
+const usuario ="Juan";
+console.log(usuario.substring(0,1));
+console.log(usuario.charAt(0));

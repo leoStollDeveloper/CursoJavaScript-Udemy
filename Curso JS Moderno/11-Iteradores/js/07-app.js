@@ -1,22 +1,22 @@
-// for of
 
-const pendientes = ['Tipear','Estudiar','Programar','Vivir'];
+ const pendientes = ['Eat', 'sleep', 'code', 'repeat'];
+ 
 
 
-const verduleria = [
-    {nombre: 'manzana', precio: 200},
-    {nombre: 'palta', precio: 300},
-    {nombre: 'lechuga', precio: 100},
-    {nombre: 'tomate', precio: 250},
-    {nombre: 'zapallito', precio: 200},
-    {nombre: 'pomelo', precio: 150}, 
+const carrito = [
+    {nombre:'Monitor linox 144Hz', precio: 230},
+    {nombre:'4080 geforce', precio: 430},
+    {nombre:'memoria DD5 32GB', precio: 120},
+    {nombre:'Fuente Zeasonic G-780', precio: 200},
+    {nombre:'Placa base msi B550', precio: 180},
+    {nombre:'Intel pentium 4', precio: 20},
 ]
 
-for(let pendiente of pendientes) {
-    console.log(pendiente);
+ for(let pendiente of pendientes){
+     console.log(pendiente);
 
 }
 
-for(let producto of verduleria) {
+for( let producto of carrito) {
     console.log(producto.nombre)
 }

@@ -1,13 +1,11 @@
-const leo = {
-    hobby: "viciar",
-    porongudo: true,
-    largo: 20,
-
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true
 }
 
-leo.porongudo = false;
+producto.real = false;
 
-delete leo.largo;
+delete producto.precio;
 
-console.log(leo);
-
+console.log(producto);

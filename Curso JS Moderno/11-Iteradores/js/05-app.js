@@ -1,9 +1,16 @@
-//do While loop
+let i = 1; // inicio
 
-let i = 0;
 
 do {
-    console.log(`Numero ${i}`)
+    if ( i % 15 === 0){
+        console.log(`${i} FIZZ BUZZ!!!`)
+    } else if(i % 3 === 0){
+        console.log(`${i} fizz`)
+    }else if (i % 5 === 0){
+        console.log(`${i} buzz`)
+    }
 
-    i++; //Incremento
-} while ( i <10);   //Condicion
+
+
+    i++;  // Incremento
+} while ( i < 100); // COndicion

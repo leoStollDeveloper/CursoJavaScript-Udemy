@@ -2,6 +2,23 @@
 
 let puntaje = 5;
 
-puntaje += 3;
+puntaje++; //5
+++puntaje; //6
 
-console.log(puntaje);
+puntaje--; //5
+--puntaje; //4
+
+
+console.log (puntaje);
+
+
+let puntaje2 = 5;
+
+puntaje2 += 3;
+puntaje2 += 3;
+puntaje2 += 3;
+
+
+
+
+console.log (puntaje2);

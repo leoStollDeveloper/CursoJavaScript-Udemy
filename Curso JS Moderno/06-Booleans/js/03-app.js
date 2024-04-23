@@ -1,11 +1,12 @@
-const autenticado = true;
+const autentica = true;
 
-//if(autenticado) {
-//    console.log('Si puede ver netflix');
-//} else {
-//    console.log('no no puede verlo')
-///}
+// if(autentica){
+//     console.log('Si puede ver Netflix')
+// } else {
+//     console.log('No puede ver Netflix')
+// }
+
 
 //Operador ternario
 
-console.log( autenticado ? 'Si esta autenticado' : 'No esta autenticado');
+console.log( autentica ? 'Si esta autenticado' : 'No esta autenticado');

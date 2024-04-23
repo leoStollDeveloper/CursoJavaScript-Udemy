@@ -1,18 +1,19 @@
-const leo = {
-    hobby: "correr",
-    porongudo: true,
-    largo: 20,
-    informatio: {
-        medidas: {
-        altura: "1.85",
-        peso: "75kg"
-    },
-    nacionalidad:{
-        pais: "Portugues"
-
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true,
+    informacion : {
+        medidas : {
+        peso: '1kg',
+        medida: '1m'
+        },
+        fabricacion: {
+            pais: 'Italia'
+        }
     }
-  }
 }
 
 
-console.log(leo.informatio.nacionalidad.pais);
+//console.log(producto):
+
+console.log(producto.informacion.fabricacion.pais);

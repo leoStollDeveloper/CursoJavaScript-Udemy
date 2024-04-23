@@ -1,20 +1,18 @@
 "use strict";
 
-
-
-const leo = {
-    hobby: "viciar",
-    porongudo: true,
-    largo: 20,
-
+const producto = {
+    corazon: "nobleza",
+    precio: 300,
+    real: true,
 }
+//Manera de frerzar un objeto.
+Object.freeze( producto );
 
-Object.freeze( leo );
+// producto.real = false;
+// producto.imagen = "imagen.png";
+// delete.producto.precio;
 
-//leo.porongudo = false;
-//leo.imagen = "img.jpg";
+console.log(producto);
 
-
-console.log(leo);
-
-console.log(Object.isFrozen(leo));
+//Manera de preguntar si es objeto esta freezado.
+console.log(Object.isFrozen(producto));

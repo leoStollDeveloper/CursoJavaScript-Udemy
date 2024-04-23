@@ -1,14 +1,12 @@
-// Operador mayor que y menor que
+// Operador Mayor que y menor que 
 
 
-const dinero = 200;
+const dinero = 300;
 const totalAPagar = 300;
 
 
-
-if(dinero >= totalAPagar) {
-    console.log('Si podemos pagar')
-} else{
-    console.log('Fondo insuficiente');
+if( dinero >= totalAPagar) {
+    console.log('Si podemos pagar');
+} else {
+    console.log('Fondo Insuficiente');
 }
-
