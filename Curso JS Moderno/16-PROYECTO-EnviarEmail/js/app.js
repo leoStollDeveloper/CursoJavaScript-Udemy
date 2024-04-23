@@ -15,8 +15,12 @@ document.addEventListener('DOMContentLoaded', function(){
   
  
     function validar(evento) {
-        console.log(evento.target.value);
-    }
+        if (evento.target.value.trim() === '') {
+            console.log('Esta vacio')
+        }else {
+            console.log('si hay algo...')
+        }
+    } 
 
 
 
