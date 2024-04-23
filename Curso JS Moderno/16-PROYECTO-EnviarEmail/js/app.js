@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const inputEmail = document.querySelector('#email');
     const inputAsunto = document.querySelector('#asunto');
     const inputMensaje = document.querySelector('#mensaje');
+    const formulario = document.querySelector('#formulario');
     
 
 
@@ -23,10 +24,13 @@ document.addEventListener('DOMContentLoaded', function(){
     } 
 
     function mostrarAlerta(){
+        //Generar alerta en HTML
     const error = document.createElement('P');
     error.textContent = 'Hubo un error...';
+    error.classList.add('bg-red-600', 'text-white','text-center');
     
-    console.log(error);
+    //inyectar el error al formulario
+    formulario.appendChild(error)
 
     }
 
