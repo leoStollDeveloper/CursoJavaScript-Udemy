@@ -7,10 +7,13 @@ document.addEventListener('DOMContentLoaded', function(){
     
 
 
+    //Asignar eventos
+    inputEmail.addEventListener('blur',function(evento){
+        console.log(evento.target.value);
+    });
+ 
 
-    // console.log(inputMensaje);
 
 
 
-
-})
+});
