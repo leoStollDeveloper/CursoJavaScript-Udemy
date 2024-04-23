@@ -8,11 +8,15 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
     //Asignar eventos
-    inputEmail.addEventListener('blur',function(evento){
-        console.log(evento.target.value);
-    });
+    inputEmail.addEventListener('blur', validar);
+    inputAsunto.addEventListener('blur', validar);
+    inputMensaje.addEventListener('blur', validar);
+        
+  
  
-
+    function validar(evento) {
+        console.log(evento.target.value);
+    }
 
 
 
