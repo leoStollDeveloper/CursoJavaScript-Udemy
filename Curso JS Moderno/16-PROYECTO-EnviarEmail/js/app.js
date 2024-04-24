@@ -25,13 +25,21 @@ document.addEventListener('DOMContentLoaded', function(){
     } 
 
     function mostrarAlerta(mensaje, referencia){
+        //Comprueva si ya existe un alerta
+        const alerta = referencia.querySelector('.bg-red-600');
+        if(alerta) {
+            alerta.remove();
+        }
+
+
+
         //Generar alerta en HTML
     const error = document.createElement('P');
     error.textContent = mensaje;
     error.classList.add('bg-red-600', 'text-white','text-center');
     
     //inyectar el error al formulario
-    referencia.appendChild(error)
+    referencia.appendChild(error);
 
     }
 
