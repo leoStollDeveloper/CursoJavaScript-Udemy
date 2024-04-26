@@ -15,12 +15,16 @@ document.addEventListener('DOMContentLoaded', function(){
     const formulario = document.querySelector('#formulario');
     const btnSubmit = document.querySelector('#formulario button[type="submit"]')
     const btnReset = document.querySelector('#formulario button[type="reset"]')
+    const spinner = document.querySelector('#spinner');
 
 
     //Asignar eventos
     inputEmail.addEventListener('input', validar);
     inputAsunto.addEventListener('input', validar);
     inputMensaje.addEventListener('input', validar);
+
+    formulario.addEventListener('submit', enviarEmail);
+
 
     btnReset.addEventListener('click', function(evento){
         evento.preventDefault();
@@ -35,7 +39,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
     })
         
+    function enviarEmail(evento) {
+        evento.preventDefault();
 
+        spinner.classList.add('flex');
+        spinner.classList.remove('hidden');
+
+    }
 
     function validar(evento) {
         
